@@ -1,3 +1,18 @@
+//✅ 🔹 For Linux / macOS (most common)
+// 👉 Step 1: Compile
+// g++ filename.cpp -o output -lGL -lGLU -lglut
+// 👉 Step 2: Run
+// ./output
+
+
+// ✅ 🔹 For Windows (MinGW)
+// 👉 Compile
+// g++ filename.cpp -o output -lfreeglut -lopengl32 -lglu32
+// 👉 Run
+// output
+
+
+
 // ======================================================
 // Q1: Implement DDA Line Drawing Algorithm (x1,y1 to x2,y2)
 // ======================================================
